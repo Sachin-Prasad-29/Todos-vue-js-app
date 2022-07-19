@@ -45,7 +45,7 @@ export default {
   created() {
     // its get called automatically when the page loads just
     axios
-      .get('https://jsonplaceholder.typicode.com/todos?_limit=7')
+      .get('https://jsonplaceholder.typicode.com/todos?_limit=0')
       .then((response) => (this.todos = response.data))
       .catch((err) => console.log(err));
   },
