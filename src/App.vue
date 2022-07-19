@@ -27,7 +27,7 @@ export default {
     deleteTodo(id) {
       axios
         .delete(`https://jsonplaceholder.typicode.com/todos/${id}`)
-        .then((response) => (this.todos = this.todos.filter((todo) => todo.id !== response.id)))
+        .then((response) => (this.todos = this.todos.filter((todo) => todo.id !== response.data.id)))
         .catch((err) => console.log(err));
       this.todos = this.todos.filter((todo) => todo.id !== id);
     },
@@ -45,7 +45,7 @@ export default {
   created() {
     // its get called automatically when the page loads just
     axios
-      .get('https://jsonplaceholder.typicode.com/todos?_limit=0')
+      .get('https://jsonplaceholder.typicode.com/todos?_limit=7')
       .then((response) => (this.todos = response.data))
       .catch((err) => console.log(err));
   },
