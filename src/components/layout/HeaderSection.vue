@@ -21,4 +21,10 @@ export default {
   color: #fff;
   padding-right: 5px;
 }
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
 </style>

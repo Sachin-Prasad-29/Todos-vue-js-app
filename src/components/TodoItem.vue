@@ -4,7 +4,7 @@
     <p>
       <input type="checkbox" @change="markComplete" />
       {{ todo.title }}
-      <button v-on:click="$emit('del-todo',todo.id)" class="del"> X </button>
+      <button v-on:click="$emit('del-todo', todo.id)" class="del">X</button>
     </p>
   </div>
 </template>
@@ -46,8 +46,8 @@ export default {
   cursor: pointer;
   float: right;
 }
-input{
-  
+p {
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
 }
-
 </style>
