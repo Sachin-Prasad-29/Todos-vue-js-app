@@ -6,19 +6,19 @@
 
 <script>
 export default {
-     name: "HeaderSection"
-}
+  name: 'HeaderSection',
+};
 </script>
 
 <style scoped>
-.header{
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+.header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
 }
 .header a {
-    color: #fff;
-    padding-right: 5px;
+  color: #fff;
+  padding-right: 5px;
 }
 </style>

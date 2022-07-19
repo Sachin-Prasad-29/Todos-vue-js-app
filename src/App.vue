@@ -53,12 +53,15 @@ export default {
 <style>
 * {
   box-sizing: border-box;
-  margin: 20px;
   padding: 0;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  margin: 10px 10%;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 10px 20px 5px rgb(5, 188, 220);
 }
 .btn{
   display: inline-block;
@@ -69,6 +72,6 @@ body {
   cursor: pointer;
 }
 .btn:hover{
-  background: #666
+  background: rgb(118, 127, 128)
 }
 </style>

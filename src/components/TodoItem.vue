@@ -29,8 +29,8 @@ export default {
 
 <style scoped>
 .todo-item {
-  background: rgb(119, 240, 212);
-  padding: 10px;
+  background: rgba(119, 240, 212, 0.637);
+  padding: 4px 24px;
   border-bottom: 1px solid gray;
 }
 .is-complete {
@@ -41,9 +41,13 @@ export default {
   color: white;
   font-weight: 700;
   border: none;
-  padding: 5px 9px;
+  padding: 5px 12px;
   border-radius: 50px;
   cursor: pointer;
   float: right;
 }
+input{
+  
+}
+
 </style>
